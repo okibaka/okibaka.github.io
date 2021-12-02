@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* C Page */
+
+body {
+	background-image: url("1.png");
+	background-repeat: repeat;
+}
+
+.container {
+	background-color: white;
+	max-width: 720px;
+	margin: 0 auto;
+	min-height: 100vh;
+	display: grid;
+	grid-auto-rows: 100px auto 64px;
+}
+
+.header {
+	background-color: red;
+}
+
+.logo {
+	/*background-color: blue;*/
+	margin: 20px;
+}
+
+.logo small {
+	position: relative;
+	bottom: 10px;
+}
+
+.footer {
+	background-color: red;
+}
+
+.row {
+display: grid;
+grid-template-columns: 1fr;
+}
+
+.col1 {
+	margin: 30px 20px 15px;
+	/*background-color: lightcyan;*/
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+}
+
+.col1 img {
+	display: block;
+	border: 6px solid darkblue;
+	border-radius: 24px;
+	width: 200px;
+	height: 282px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.col2 {
+	/*background-color: lightcoral;*/
+	/*margin: 30px 0 30px;*/
+	display: block;
+	/*max-width: 480px;*/
+}
+
+.col2cen {
+	max-width: 480px;
+	/*background-color: lightgreen;*/
+	margin: 0 auto;
+}
+
+.col2cen h3 {
+	margin: 0 0 10px;
+}
+
+
+.chap {
+	overflow: auto;
+	max-width: 480px;
+	height: 360px;
+	background-color: lightgray;
+	padding: 12px;
+	border: 2px solid blue;
+	border-radius: 24px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.description {
+	display: block;
+	float: left;
+	/*background-color: lightyellow;*/
+	margin: 96px 10px 5px;
+}
+
+.description h2 {
+	margin: 0 0 12px;
+}
+
+.epis {
+	margin: 8px;
+	background-color: grey;
+}
+
+.episno {
+	font-size: 2em;
+	background-color: blue;
+	height: 64px;
+	width: 64px;
+	/*border-radius: 50%;*/
+}
+
+.episgrid {
+	display: grid;
+	grid-template-columns: 64px auto;
+}
+
+.thmb {
+	position: relative;
+	left: 38%;
+	top: 10%;
+	font-weight: bold;
+	color: white;
+}
+
+.epid {
+	margin-left: 8px;
+	position: relative;
+	top: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+	.col1 {
+		grid-template-columns: 1fr;
+	}
+	.chap {
+		max-width: 80%;
+	}
+	.description {
+		margin: 48px 10px 5px;
+	}
+}
+
+/* C1 */
+
+.comic {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.comic img {
+	display: block;
+	width: 100%;
+}
