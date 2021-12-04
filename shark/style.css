@@ -196,6 +196,7 @@ grid-template-columns: 1fr;
 	}
 	.epid {
 		font-size: 0.7em;
+		top: 25%;
 	}
 }
 
