@@ -194,6 +194,9 @@ grid-template-columns: 1fr;
 	.description {
 		margin: 48px 10px 5px;
 	}
+	.epid {
+		font-size: 1em;
+	}
 }
 
 /* C1 */
