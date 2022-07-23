@@ -112,6 +112,19 @@ grid-template-columns: 1fr;
 	margin-left: 16px;
 }
 
+.coltwt {
+	/*background-color: lightcoral;*/
+	margin: auto;
+	text-align: center;
+}
+
+.twt img {
+	width: auto;
+	height: 70px;
+	display: inline;
+	margin: 20px auto -5px;
+	/*background-color: yellow;*/
+}
 
 .chap {
 	overflow: auto;
